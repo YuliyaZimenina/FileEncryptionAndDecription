@@ -2,7 +2,10 @@ import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import java.io.*;
-
+/*
+A program demonstrating the work of encryption
+and decryption of text in files (DES Algorithm)
+ */
 public class Main {
     public static void main(String[] args) throws Exception {
         File inFile = new File("src\\inText.txt");
