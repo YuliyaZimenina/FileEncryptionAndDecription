@@ -36,8 +36,43 @@ cd FileEncryptionAndDecription
 
 ```
 
-2. 
+2. Open the project in your favorite IDE (IntelliJ IDEA, Eclipse, etc.).
+3. Make sure **Java 17** is set as the project SDK.
+4. Create an input file:
+```bash
 
+src/inText.txt
+
+```
+
+Put any text inside to be encrypted
+
+5. Run the `Main.java` file
+
+## Author
+[Yuliya Zimenina](https://github.com/YuliyaZimenina)
+
+## Usage Example
+
+```java
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        File inFile = new File("src\\inText.txt");
+        File outFile = new File("src\\outFile");
+
+        byte[] sourceText = new byte[(int) inFile.length()];
+
+        // Convert file to bytes
+        FileInputStream fileInputStream = new FileInputStream(inFile);
+        fileInputStream.read(sourceText);
+        for (int i = 0; i < sourceText.length; i++) {
+            System.out.print((char) sourceText[i]);
+        }
+
+...
+
+```
 
 
 
