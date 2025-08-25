@@ -78,11 +78,11 @@ public class Main {
 
 1. The result of the program:
 
-<img src="images/1.%20Output.png" alt="The result of the program." width="300"/>
+<img src="images/1.%20Output.png" alt="The result of the program." width="450"/>
 
 2. Source text for encryption:
 
-<img src="images/2.%20Original%20text.png" alt="Source text." width="300"/>
+<img src="images/2.%20Original%20text.png" alt="Source text." width="450"/>
 
 
 
