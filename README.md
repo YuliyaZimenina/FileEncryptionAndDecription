@@ -23,6 +23,11 @@ The **Java** program demonstrates the process of **encrypting and decrypting tex
 - Prints the original, encrypted, and decrypted text to the console
 - Writes the result to the `outFile`
 
+### ***Note***
+
+- The `DESede` (Triple DES) algorithm is considered outdated for real-world applications, but it work well for demonstrating encryption principles.
+- For production use more modern algorithms such as **AES** or **RSA** are recommended.
+
 ## Technologies
 - **Java SE** (version 17)
 - **javax.crypto** (`Cipher`, `KeyGeneration`, `SecretKey`)
