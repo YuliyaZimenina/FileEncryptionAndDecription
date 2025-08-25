@@ -33,7 +33,6 @@ The **Java** program demonstrates the process of **encrypting and decrypting tex
 - **javax.crypto** (`Cipher`, `KeyGeneration`, `SecretKey`)
 
 ## Installation & Running
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/YuliyaZimenina/FileEncryptionAndDecription.git
