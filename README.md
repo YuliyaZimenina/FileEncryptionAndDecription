@@ -7,7 +7,7 @@ This project demonstrates working with cryptography (the `DES` encryption algori
 
 1. [Description](#description)
 2. [Technologies](#technologies)
-3. [Installation & Running](#installation-&-running)
+3. [Installation and Running](#installation-and-running)
 4. [Author](#author)
 5. [Usage Example](#usage-example)
 6. [Screenshots](#screenshots)
@@ -32,7 +32,8 @@ The **Java** program demonstrates the process of **encrypting and decrypting tex
 - **Java SE** (version 17)
 - **javax.crypto** (`Cipher`, `KeyGeneration`, `SecretKey`)
 
-## Installation & Running
+## Installation and Running
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/YuliyaZimenina/FileEncryptionAndDecription.git
